@@ -44,7 +44,7 @@ const RecentTransactionsModal = ({ onDismiss = defaultOnDismiss }: RecentTransac
       {!account && (
         <Flex justifyContent="center" flexDirection="column" alignItems="center">
           <Text mb="8px" bold>
-            Please connect your wallet to view your recent transactions
+            Limit active Order dd/mm/yy
           </Text>
           <Button variant="tertiary" size="sm" onClick={onDismiss}>
             Close
